@@ -1,0 +1,253 @@
+
+@media(max-width:1024px){
+    .header-section .navbar-expand-lg .navbar-nav .nav-link {font-size: 16px;margin-right: 0px;}
+    .para p {padding: 0;}
+    .item-content h4 {display: block;margin-left: 0px;font-size: 25px;}
+    .feature-para p { padding: 0;}
+    .man-img {width: 100%; margin-top: 94px;}  
+    .process-section P {padding: 0;}
+    .footer-bg { width: 72%; top: 18%;}
+    .footer-contant h2 {padding: 0;}
+    .copy-contant h6 { margin-left: 0%;}
+    .footer-img { width: 41%;top: 10%;right: 17%;}
+}
+
+@media(max-width:991px){
+    .man-img { display: none;}
+    .offcanvas{ background-color: #51af42;}
+    .header-section .fa-solid{color: #fff;font-size: 27px;}
+    .hero-section .fa-solid{color: #fff;}
+    .serve-section .fa-solid{ color: #fff; }
+    .feature-section .fa-solid{ color: #fff;}
+    .footer-bg {top: 30%; width: 100%; }
+    .offcanvas button { background-color: transparent; border: none;  font-size: 30px;margin-right: 20px; }
+    .navbar-toggler { border: none;box-shadow: none;margin-right: 17px; }
+    .feature-section .fa-solid {color: #51af42;}
+    .navbar-toggler:focus { box-shadow: none; }
+    .btn-feature {margin-top: 50px;}
+    .feature-section h2 { margin: 0;}
+    .about-img { margin-top: 5%; margin-left: 0;width: 100%;}
+    .hero-section h1, footer h1 { margin-top: 20%;}
+    .about-content {margin-top: 0; text-align: right;}
+    .footer-img {width: 44%;top: 24%;right: 9%;}
+    .icon-two .fa-solid { color: #ff0000;}
+    .fa-solid { color: #0961b1; }
+    .serve-1 ul li .fa-solid{color: #0961b1 !important;font-size:17px !important ;}
+    .footer-logo{display: none; }
+    .mobile-logo {display: inline; margin-left: 35%;}
+    .copy-foter P { color: #fff; text-align: center; }
+}
+
+@media(max-width:768px){
+    .process-section {padding: 0;}
+    .hero-section .hero-img { width: 44%;right: 20%; top: 51px;}
+    .hero-section h1{font-size: 45px; }
+    .about-img {margin-top: -12%;margin-left: 25%;width: 51%;} 
+    .about-content h2 {font-size: 45px;text-align: center;  }
+    .about-content p { text-align: center;}
+    .process-section P { padding: 0; }
+    .footer-img {width: 48%; }
+    .copy-contant h6 { margin-left: 15% !important;}
+    .copy-contant h5 {margin-left: 33%;} 
+}
+
+@media (min-width: 769px) and (max-width: 991px){
+    .ab-with{ width: 50%;}
+    .onee {  margin-left: 23%;}
+    .footer-bg { top: 30%; width: 87%;}
+    .hero-section .hero-img { width: 35%;right: 17%;top: 13%;}
+    .with-item{width: 50%;}
+    .item-one {padding: 9px 10px;height: 400px; }
+    .para p { padding: 0;}
+}
+
+@media (min-width: 576px) and (max-width: 768px){
+	.onee { margin-left: 23%; }
+}
+
+@media(max-width:575px){
+    .navbar{margin-top: 15px;}
+    .btn-one { margin-right: 35%; }
+    .navbar-nav .call {margin:0; }
+    .hero-section h1, footer h1 {margin-top: 47%; font-size: 40px; text-align: center;}
+    .hero-section .hero-img {width: 65%;right: 24%;top: 10%;}
+    .hero-section p {text-align: center;}
+    .btn-one { padding: 13px 32px;margin-left: 23%;}
+    .item-content h4 {display: block;margin-left: 3px;}
+    .btn-one { margin-right: 0;}
+    .item-content img{ margin-bottom: 10px; }
+    .about-img {  margin-left: 18%;width: 66%;}
+    .about-content {margin-top: 0;}
+    .about-content h2{ text-align: center; font-size: 45px;margin-top: 20px;}
+    .about-content p{text-align: center;font-size: 18px;}
+    .margin-item{margin-left:0; }
+    .feature-section h2 {margin: 5px 0px; }
+    .man-img { width: 65%; position: absolute; left: 16%; bottom: -65%;}
+    .process-item { padding: 81px 19px 0px; height: 336px; }
+    .num-box{left: 42%;}
+    .btn-feature { text-align: start; bottom: -80px; }
+    .btn-serve { text-align: start !important;}
+    .question-section h2 {font-size: 35px;margin-bottom: 3px;}
+    .plus-item { padding: 15px; margin-top: 20px;}
+    .plus-item h5 {font-size: 20px;}
+    .footer-img { width: 82%;top: -6%; right: 14%;}
+    .footer-bg {width: 100%;top: 57%;}    
+    .footer-contant h2 {font-size: 33px;margin-top: 40%;text-align: center; padding: 0; margin-bottom: 20px; }
+    .footer-contant h2 span { display: block;}
+    .footer-contant h6{ display: block;text-align: center; }
+    .item-icon .fa-solid{color: #0961b1 !important; margin-left: 10px;margin-top: 10px; }
+    .item-icon p{display: inline; font-size: 18px; font-weight: 500;}
+    .footer-logo{display: none;}
+    .mobile-logo{margin-left: 36%; width: 25%;}
+    .copy-foter P {text-align: center;color: #fff;font-size: 12px; }
+    .copy-contant a { display: block;}
+    .copy-contant h6 span {margin-left: 22%; }
+    .copy-contant h5 { font-size: 15px;  margin-left: 28%;margin-top: 6%; }
+    .call{ display: block;margin: 15px 33%; padding: 7px 0; }
+    .copy-contant h6 { margin-left: 0%;}  
+    .mbl-hide{display:none ;}
+    .desk-hide{display: inline; }
+    .item-one {padding: 50px 33px;}
+}
+
+@media(max-width:550px){
+    .about-content h2 { margin-top: 8% !important;}
+}
+
+@media(max-width:495px){
+    .plus-item i{ color: #0961b1 !important;}
+    .para p { padding: 0; }
+    .item-content h4 { display: block;  margin-left: 0px; font-size: 22px;}
+    .man-img { bottom: -51%; }
+    .process-item {height: 346px; }
+}
+
+@media(max-width:495px){
+    .about-img { margin-top: -5%; }
+}
+
+@media(max-width:425px){
+    .hero-section .hero-img {top: 14%;}
+    .hero-section h1 { margin-top: 54%;font-size: 34px;}
+    .btn-one { margin-left: 15%;}
+    .about-content h2 { font-size: 41px;}
+    .about-content p { font-size: 17px;}
+    .para p { font-size: 17px; padding: 0;}  
+    .feature-section h2 { font-size: 34px;}
+    .feature-para h4 { font-size: 22px;}
+    .feature-para p { padding: 0px; font-size: 18px; }  
+    .num-box {left: 38%;}
+    .process-section P { padding: 0; }
+    .table-serve { padding: 20px 0px 11px 50px; height: 94%;}
+    .question-section h2 { font-size: 28px;}
+    .plus-item h5 { font-size: 16px; }
+    .call {margin: 15px 22%;}
+    .copy-contant h6 { font-size: 13px;}
+    .copy-contant h6 span{font-size: 15px;}
+    .footer-bg { top: 64%; }
+}
+
+@media(max-width:400px){
+    .hero-section .hero-img {top: 13%;}
+    .hero-section h1 {font-size: 34px;}
+    .btn-one { margin-left: 14%;}
+    .about-img { margin-left: 18%; width: 67%;}
+    .about-content h2 { font-size: 40px; }
+    .about-content p { font-size: 15px; }
+    .item-content h4 { display: block;margin-left: 0px;font-size: 19px;}
+    .para p { font-size: 16px; margin-top: 17px; padding: 0px; }
+    .feature-section h2 { font-size: 30px;}
+    .feature-para h4 { font-size: 20px;; }
+    .col-6 {width: 100%;}
+    .footer-contant h2 { font-size: 28px; }
+    .footer-contant h6 {  font-size: 17px; }
+    .btn-one { padding: 10px 29px;}
+    .copy-contant h5 {font-size: 13px; margin-left: 22%; margin-top: 5%; }
+}
+@media(max-width:375px){
+    .hero-section h1 {font-size: 32px}
+    .btn-one { margin-left: 8%; }
+    .about-img {margin-top: -10%;}
+    .about-content h2 {font-size: 38px; }
+    .about-content p {padding: 0;}
+    .para p { margin-top: 15px;padding: 0;}
+    .item-content h4 { display: flex;font-size: 26px;}
+    .item-one {padding:0;}
+    .item-content img{ margin-left: 27%;}
+    .para p {padding: 10px; }
+    .item-one {height: 379px; }
+    .feature-section h2 { font-size: 32px;}
+    .feature-section h2 span{ display: block; }
+    .feature-para h4 { font-size: 17px; }
+    .feature-para p {padding: 0; font-size: 16px; }
+    .man-img { width: 69%; bottom: -50%; }
+    .num-box { left: 36%;}
+    .process-section P { padding: 0; }
+    .serve-section h2 { font-size: 33px; }
+    .col-6 {  width: 97%; }
+    .question-section h2 { font-size: 25px; }
+    .plus-item h5 {font-size: 15px;  }
+    .footer-img {width: 69%;right: 21%;}
+    .footer-contant h2 {font-size: 29px; }
+    .footer-contant h6 { font-size: 15px;}
+    .btn-footer {margin-top: 12%;}
+    .item-icon p {  font-size: 17px; }
+    .footer-bg { top: 66%;}
+    .copy-contant h5 { font-size: 15px; margin-left: 21%;margin-top: 5%;}
+    .call { margin: 9px 22%; padding: 5px 0;}
+    .copy-contant h6 { margin-left: 0; font-size: 12px;}
+    .copy-contant h6 span{   font-size: 14px;}
+    .mobile-logo { margin-left: 39%; width: 28%; }
+}
+
+@media(max-width:351px){
+    .hero-section .hero-img {width: 71%; right: 23%; top: 14%; }
+    .hero-section h1 { font-size: 30px; }  
+    .about-content h2 { font-size: 34px }
+    .feature-para h4 {font-size: 15px;}
+    .man-img {bottom: -46%;}
+    .process-section P {font-size: 16px; }
+    .plus-item h5 { font-size: 14px;}
+    .footer-contant h2 { font-size: 26px;}
+    .item-icon p {font-size: 16px;}
+}
+
+@media(max-width:320px){
+    .navbar-brand img{width: 63%; }
+    .navbar { margin-top: 0px; }
+    .navbar-nav .call { padding: 7px 0 ;}
+    .hero-section h1, footer h1 {margin-top: 18%;font-size: 26px;}
+    .hero-section .hero-img {top: 8%; }
+    .about-img{ margin-top: -27%; }
+    .about-content h2 {font-size: 32px; }
+    .about-content p { padding: 0px 10px 0px 10px;font-size: 16px;}
+    .item-one{padding: 0; height: 383px;}
+    .para p {padding: 3px 7px 12px 12px;font-size: 16px;}
+    .feature-item{position: relative;}
+    .item-content h4 {font-size: 27px; display: block; margin-top: 4%;}
+    .item-content h4 {font-size: 20px;}
+    .item-content img{ margin-left: 25%;}
+    .feature-section h2 { margin: 0;font-size: 37px; }
+    .feature-section { margin-top: 27px;}
+    .feature-para p { font-size: 17px;}
+    .icon .fa-solid { position: absolute;}
+    .feature-contant { gap: 0px;padding: 13px 10px 0px 10px; text-align: center;}
+    .feature-para p{ padding: 0 !important;font-size: 17px;}
+    .feature-para h4 {font-size: 19px;}
+    .man-img { width: 72%;bottom: -54%;}
+    .process-section h2 {font-size: 33px;}
+    .num-box { width: 80px; height: 80px;left:36% ;}
+    .process-section P { padding: 0; font-size: 17px;}
+    .process-item {padding: 67px 26px 0px;height: 357px; }
+    .plus-item h5 { font-size: 13px !important; }
+    .col-6 {width: 100% !important; }
+    .footer-img {width: 79%;right: 19%;}
+    .footer-contant h2 { font-size: 25px; margin-top: 44%;margin-bottom: 26px;}
+    .item-icon p { font-size: 14px; }
+    .copy-contant h5 { font-size: 12px; margin-left: 20%; margin-top: 0%;}
+    .call {margin: 8px 45px !important;  }
+    .footer-bg { width: 100%; top: 68%;}
+    .copy-contant h6 span {  margin-left: 10%;  font-size: 14px; }
+    .copy-contant h6{ font-size: 12px; }
+    .mobile-logo { margin-left: 40%; width: 24%; margin-top: 11%; }
+}

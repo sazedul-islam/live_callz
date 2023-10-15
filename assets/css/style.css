@@ -1,0 +1,457 @@
+/* 
+   Theme: Live Callz Responsive HTML Template 
+   Author: Author name
+   Live URL:
+
+   Primary color: #2679c7
+   Secondary color: #51af42
+
+   Font Style
+   Title: Normal font
+   Paragraph: Normal font
+*/
+
+/* Global CSS */
+a{
+    text-decoration: none;
+    color:#2679c7;
+}
+*{
+   margin: 0;
+   padding: 0;
+}
+ul li{
+    list-style: none;
+}
+ul{
+    padding: 0;
+}
+body{
+    background-color: #f9f9f9;
+}
+/* Header section css */
+.header-section{
+    position: relative;
+}
+.navbar{
+    margin-top: 30px;
+    padding: 0;
+}
+.header-section .navbar-expand-lg .navbar-nav .nav-link{
+    font-size: 18px;
+    font-weight: 500;
+    margin-right: 40px;
+    color: #fff;
+}
+.header-section .navbar-expand-lg .navbar-nav .nav-link:hover{
+    color: #51af42;
+}
+.header-section .navbar-expand-lg .navbar-nav .nav-call {
+    color: #fff;
+    padding: 10px 25px;
+    border-radius: 10px;
+}
+.navbar-nav .call {
+    border: 1px solid #fff;
+    border-radius: 15px;
+    padding: 8px 30px;
+    transition: all .3s ease-in-out;
+}
+.navbar-nav .call:hover{
+    background-color: #51af42;
+    border-color: #51af42;
+}
+.navbar-nav .call i{
+    color: #fff;
+}
+/* Hero section css */
+.hero-section{
+  
+}
+.hero-section .hero-bg img {
+    position: absolute;
+    width: 72%;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    
+}
+.height{
+	min-height: 575px;
+}
+.hero-section h1, footer h1{
+	font-size: 58px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.hero-section h1 span, footer h1 span{
+	display: block;
+    color: #0961b1;
+}
+.hero-section p{
+    margin: 25px 0 55px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.hero-section a{
+	background: #0c63b2;
+}
+.hero-section .hero-img{
+	position: absolute;
+	width: 47%;
+    right: 11%;
+    bottom: 0;
+}
+.btn-one {
+    background: #0f65b3;
+    border: 2px solid #0f65b3;
+    border-radius: 15px;
+    padding: 18px 48px;
+    font-size: 22px;
+    font-weight: 500;
+    color: #fff;
+    transition: all .3s ease-in-out;
+}
+.btn-one:hover{
+    background-color: #fff;
+    border-color: #51af42;
+    color: #51af42;
+}
+.btn-one:hover i{
+    color: #409830;
+}
+
+/* About Section */
+.about-bg {
+    position: absolute;
+    width: 100%;
+    top: 90%;
+    left: 0;
+    z-index: -1;
+}
+.about-img{
+    margin-top: 15%;
+    margin-left: 3%;
+    width: 85%;
+}
+.about-content{
+    margin-top: 20%;
+    text-align: right;
+}
+.about-content h2 span {
+    display: block;
+    color: #0961b1;
+}
+.about-content h2 {
+    margin-bottom: 40px;
+    text-align: right;
+    font-size: 50px;
+    font-weight: 700;
+}
+.about-content p {
+    font-weight: 600;
+    font-size: 22px;
+    padding: 0px 0px 0 45px;
+    color: #242424;
+} 
+.item-one{
+    background: #fff;
+    border-radius: 25px;
+    box-shadow: 5px 5px 20px #f1f1f1;
+    margin-top: 60px;
+    padding: 50px 80px;
+    height: 430px;
+}
+.item-content h4{
+    display: inline;
+    margin-left: 35px;
+    font-size: 30px;
+    font-weight: 700;
+}
+.para p{
+    font-size: 18px;
+    margin-top: 15px;
+    font-weight: 500;
+    padding: 3px 94px 10px 0px;
+}
+.para p span{
+    font-weight: 800;
+}
+
+/* Feature Section CSS */
+.feature-section{
+    margin-top: 60px;
+    position: relative;
+}
+.feature-section h2{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    margin: 50px 0px;
+}
+.feature-section h2 span{
+    color: #0961b1;
+}
+.feature-contant{
+    background: #fff;
+    border-radius: 25px;
+    box-shadow: 0px 10px 10px #f1f1f1;
+    display: flex;
+    gap: 40px;
+    margin-top: 65px;
+    padding: 40px 30px 15px 52px;
+    transition: all .3s ease-in-out;
+}
+.icon{
+    color: #51af42;
+}
+.icon-two{
+    color: #ff0000;
+}
+.icon .fa-solid {
+    font-size: 28px;
+    line-height: 40px;
+    color: #409830;
+}
+.icon-two .fa-solid {
+    font-size: 28px;
+    line-height: 40px;
+    color: #ff0000;
+}
+.feature-para h4{
+    font-size: 25px;
+    font-weight: 800;
+}
+.feature-para p{
+    padding: 15px 74px 0px 0px;
+    color: #414141;
+    font-size: 20px;
+}
+.feature-contant:hover{
+    background-color: #f3f3f3;
+}
+.feature-bg{
+    position: absolute;
+    left: 0;
+    bottom: -20px;
+    z-index: -1;
+}
+.btn-feature{
+    margin-top: 20px;
+}
+.man-img{
+    width: 93%;
+    margin-top: 70px;
+}
+
+/* Process Section CSS */
+.process-section {
+    padding: 60px 0;
+}
+.process-section h2{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 40px;
+    margin-bottom: 55px;
+}
+.process-item {
+    position: relative;
+    background-color: #f3f3f3;
+    border-radius: 160px 160px 30px 30px;
+    margin-top: 60px;
+    padding: 74px 0px 0px;
+    height: 408px;
+    text-align: center;
+}
+.number{
+    background: #0f65b3;
+    border-radius: 50%;
+    margin: auto;
+    width: 55px;
+    height: 55px;
+}
+.number h6{
+    font-size: 32px;
+	font-weight: 700;
+	line-height: 55px;
+	color: #fff;
+    text-align: center;
+    
+}
+.num-box{
+    position: absolute;
+    display: flex;
+    background-color: #fff;
+    border-radius: 50%;
+    margin: auto;
+    width: 100px;
+    height: 100px;
+    padding: 17px;
+    box-shadow: 5px 5px 40px #b6b6b6;
+    left: 38%;
+    top: -45px;
+}
+.process-section h4{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 15px;
+}
+.process-section P{
+    padding: 10px 50px;
+    font-size: 18px;
+    height: 110%;
+}
+
+/* Serve Section CSS */
+.serve-section{
+    position: relative;
+}
+.serve-section h2{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 65px;
+}
+.serve-section span{
+    color: #0961b1;
+}
+.serve-1 h4{
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 15px;
+}
+.table-serve{
+    background-color: #fff;
+    border-radius: 25px;
+    padding: 30px;
+    height: 92%;
+    box-shadow: 2px 2px 4px #b6b6b6;
+}
+.btn-serve {
+    text-align: center;
+    margin-top: 50px;
+}
+.serve-bg{
+    position: absolute;
+    top: -40%;
+    z-index: -1;
+    left: 0;
+}
+
+/* Question Section CSS */
+.question-section {
+    padding: 100px 0;
+}
+.question-section h2{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+.plus-item{
+    background-color: #fff;
+    padding: 19px;
+    border-radius: 25px;
+    margin-top: 50px;
+}
+.plus-item h5{
+    display: inline;
+    color: #242424;
+    font-size: 28px;
+    font-weight: 700;
+}
+.fa-solid{
+    color: #0961b1;
+}
+
+
+/* Footer Section CSS */
+footer{
+    position: relative;
+    padding: 100px 0 0 0;
+}
+.footer-contant h2{
+    font-size: 40px;
+    font-weight: 800;
+    padding: 0 319px 0px 0px;
+}
+.footer-contant h2 span{
+    color: #0961b1;
+}
+footer h6{
+    font-size: 20px;
+    font-weight: 500;
+    display: inline;
+    color: #414141;
+}
+.btn-footer{
+    margin-top: 8%;
+    margin-bottom: 15%;
+}
+.footer-bg {
+    position: absolute;
+    right: 0;
+    top: 40px;
+    z-index: -1;
+    width: 64%;
+}
+
+.footer-img{
+    position: absolute;
+    width: 36%;
+    top: 3%;
+    right: 20%;
+}
+.call{
+    display: inline;
+    border: 1px solid #fff;
+    padding: 13px 24px;
+    border-radius: 10px;
+    text-align: center;
+    margin-left: 2%;
+    transition: all 0.3s ease-in-out;
+}
+.call i{
+    color: #fff;
+}
+.call a{
+    color: #fff;
+}
+
+.copy-contant h6{
+    color: #fff;
+    font-size: 16px;
+    margin-bottom: 35px;
+    margin-left: 7%;
+}
+.copy-foter P{
+    display: block !important;
+    font-size: 18px;
+    margin-top: 22px;
+    color: #414141;
+}
+.copy-contant h6 span{
+    font-size: 22px;
+}
+.copy-contant h5{
+    font-size: 16px;
+    color: #fff;
+    margin-left: 41%;
+    margin-top: 7%;
+}
+.copy-foter{
+    padding: 75px 0 0 0;
+}
+.item-icon p{
+    display: inline;
+}
+.desk-hide{
+    display: none;
+}
+.mobile-logo{
+    display: none;
+}
+
+
